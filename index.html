@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midtec - Coming Soon</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Midtec Trading & Contracting W.L.L - Qatar's preferred partner for Automatic Doors, Security Solutions, and Access Control systems.">
+    <meta name="keywords" content="Midtec Qatar, Automatic Doors, Security Solutions, Access Control, Sliding Gates, Doha, Qatar">
+    <meta name="author" content="Midtec Trading & Contracting">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://midtec.co/">
+    <meta property="og:title" content="Midtec - Coming Soon">
+    <meta property="og:description" content="Qatar's Preferred Professional Partner for Automatic Doors and Security Solutions.">
+    <meta property="og:image" content="https://midtec.co/midtec_logo.png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts (Inter for clean Arexme look) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+            color: #111827;
+        }
+        /* Extracted Brand Colors */
+        .midtec-blue {
+            color: #0047AB; /* Royal Blue from logo */
+        }
+        .bg-midtec-blue {
+            background-color: #0047AB;
+        }
+        .midtec-grey {
+            color: #6B7280; /* Grey from logo */
+        }
+        
+        /* Animations */
+        .hover-underline-animation {
+            display: inline-block;
+            position: relative;
+        }
+        .hover-underline-animation:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            background-color: #0047AB;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+        .hover-underline-animation:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen justify-between">
+
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-12 text-center max-w-5xl mx-auto w-full">
+        
+        <!-- Logo Section -->
+        <div class="mb-10 w-full flex justify-center">
+            <!-- Ensure 'midtec_logo.png' is in the same folder as this index.html -->
+            <img src="midtec_logo.png" alt="Midtec Trading & Contracting" class="h-24 md:h-32 w-auto object-contain">
+        </div>
+
+        <!-- Headline -->
+        <h2 class="text-3xl md:text-5xl font-light mb-6 leading-tight text-gray-900">
+            Building something <span class="font-bold midtec-blue">exceptional.</span>
+        </h2>
+
+        <!-- Sub-headline -->
+        <p class="text-lg text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+            We are upgrading our digital experience. <br class="hidden md:block">
+            Midtec is Qatar's preferred partner for <span class="font-semibold text-gray-800">Automatic Doors</span>, <span class="font-semibold text-gray-800">Access Control</span>, and <span class="font-semibold text-gray-800">Security Solutions</span>.
+        </p>
+
+        <!-- Divider -->
+        <div class="w-16 h-1 bg-midtec-blue mb-12 mx-auto rounded-full"></div>
+
+        <!-- Contact Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left w-full max-w-3xl bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100">
+            
+            <!-- Address Column -->
+            <div class="space-y-5">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Head Office</h3>
+                <div class="flex items-start space-x-4 group">
+                    <div class="mt-1 text-gray-400 group-hover:text-[#0047AB] transition-colors duration-300"><i class="fa-solid fa-location-dot fa-lg"></i></div>
+                    <p class="text-gray-800 leading-relaxed text-sm md:text-base">
+                        <span class="font-semibold">Midtec Trading & Contracting W.L.L</span><br>
+                        Wholesale Market Road<br>
+                        PO BOX: 30001<br>
+                        Doha, Qatar
+                    </p>
+                </div>
+            </div>
+
+            <!-- Contact Info Column -->
+            <div class="space-y-6">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Contact Us</h3>
+                
+                <!-- Phones -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-4 group">
+                        <div class="text-gray-400 w-5 group-hover:text-[#0047AB] transition-colors duration-300"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <div class="flex flex-col">
+                            <a href="tel:+97455490048" class="text-gray-800 hover:text-[#0047AB] transition-colors font-medium">+974 5549 0048</a>
+                            <a href="tel:+97433455434" class="text-gray-800 hover:text-[#0047AB] transition-colors font-medium">+974 3345 5434</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Landline -->
+                 <div class="flex items-center space-x-4 group">
+                    <div class="text-gray-400 w-5 group-hover:text-[#0047AB] transition-colors duration-300"><i class="fa-solid fa-phone"></i></div>
+                    <span class="text-gray-600">+974 4466 0481</span>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="flex items-center space-x-4 group">
+                    <div class="text-gray-400 w-5 group-hover:text-[#25D366] transition-colors duration-300"><i class="fa-brands fa-whatsapp fa-lg"></i></div>
+                    <a href="https://wa.me/97466144305" class="text-gray-800 hover:text-[#25D366] transition-colors font-medium">
+                        +974 6614 4305
+                    </a>
+                </div>
+
+                <!-- Email -->
+                <div class="flex items-center space-x-4 pt-4 border-t border-gray-100 mt-2 group">
+                    <div class="text-gray-400 w-5 group-hover:text-[#0047AB] transition-colors duration-300"><i class="fa-solid fa-envelope"></i></div>
+                    <a href="mailto:sales@midtec.co" class="text-gray-900 font-semibold hover-underline-animation">
+                        sales@midtec.co
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-6 text-center text-gray-400 text-xs uppercase tracking-wider">
+        <p>&copy; <span id="year"></span> Midtec Trading & Contracting W.L.L.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
